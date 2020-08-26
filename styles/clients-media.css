@@ -1,0 +1,32 @@
+@media (min-width: 0px) and (max-width: 320px) {
+    .clients-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+    .clients-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .clients-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 45px;
+        grid-row-gap: 45px;
+        margin: 45px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+    .clients-section {
+        margin: 60px;
+    }
+}

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/header-media.css">
+    <link rel="stylesheet" href="./styles/services-media.css">
+    <link rel="stylesheet" href="./styles/clients-media.css">
+    <link rel="stylesheet" href="./styles/team-media.css">
+    <link rel="stylesheet" href="./styles/footer-media.css">
+    <link rel="stylesheet" href="./styles/popup-media.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/favicon.ico" type="images/x-icon">
+    <title>Development agency</title>
+</head>
+
+<body class="body">
+    <!------HEADER------->
+    <header>
+        <div class="header">
+                <a href="" class="logo"><span><img src="./images/mamon-logo.svg" alt=""></span><span class="header-tittle">mamon</span></a>
+
+                <ul class="nav">
+                    <li class="nav-link"><a href="#services" class="nav-item" onclick="smoothScroll(document.getElementById('services'))">Services</a></li>
+                    <li class="nav-link"><a href="#clients" class="nav-item" onclick="smoothScroll(document.getElementById('clients'))">Clients</a></li>
+                    <li class="nav-link"><a href="#team" class="nav-item" onclick="smoothScroll(document.getElementById('team'))">Our team</a></li>
+                    <li class="nav-link"><a href="#popup" class="nav-item nav-btn">Contact us</a></li>
+                </ul>
+        </div>
+
+        <div class="wrap">
+            <h1 class="desc-tittle">We're an independent development agency.</h1>
+            <p class="desc-txt">We understand the intricacies of web development inside-out. That's why we build rock-solid Mobile and Web applications enriched with user-centered visual experiences.</p>
+            <a href="#popup" class="desc-btn">Contact Us</a>
+        </div>
+
+        <!------Modal Window(css :target)------>
+        <div id="popup" class="popup">
+            <a href="#wrap" class="popup__area"></a>
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#wrap" class="popup__content_close-btn">X</a>
+                    <h1 class="popup__content_tittle">Feedback-call</h1>
+                    <input type="number" class="popup__content_input" placeholder="Phone:">
+                    <input type="text" class="popup__content_input" placeholder="Name:*">
+                    <input type="submit" class="popup__content_input submit-btn" value="Request">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!------SERVICES SECTION------>
+    <div id="services" class="services">
+        <div class="section-name">
+            <div class="line first-line"></div>
+            <h2 class="section-tittle">OUR SERVICES</h2>
+            <div class="line second-line"></div>
+        </div>
+        <div class="wrap">
+            <div class="services-section">
+                <div class="services-item">
+                    <div><img class="s-item__img" src="./images/smartphone.svg" alt=""></div>
+
+                    <div class="s-content">
+                        <h3 class="s-item__tittle">Mobile Development</h3>
+                        <p class="s-item__txt">We develop mobile apps for all contemporary 
+                        mobile platforms. Mamon team builds 
+                        native and cross-platform solutions.</p>
+                    </div>
+                </div>
+
+                <div class="services-item">
+                    <div><img class="s-item__img" src="./images/monitor.svg" alt=""></div>
+
+                    <div class="s-content">
+                        <h3 class="s-item__tittle">Web Development</h3>
+                        <p class="s-item__txt">Mamon offers full range of services from various
+                            CMS and frameworks based websites to complex
+                            ERP/CRM solutions and e-commerce stores.</p>
+                    </div>
+                </div>
+    
+                <div class="services-item">
+                    <div><img class="s-item__img" src="./images/smartphone.svg" alt=""></div>
+
+                    <div class="s-content">
+                        <h3 class="s-item__tittle">Product Design</h3>
+                        <p class="s-item__txt">We create design given the product audience,
+                            goal, business domain, technology and
+                            the platform for the solution.</p>
+                    </div>
+                </div>
+    
+                <div class="services-item">
+                    <div><img class="s-item__img" src="./images/smartphone.svg" alt=""></div>
+
+                    <div class="s-content">
+                        <h3 class="s-item__tittle">Quality Assurance</h3>
+                        <p class="s-item__txt">Our QA team ensures high standard of 
+                            quality of products delivered.
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------CLIENTS SECTION------>
+    <div id="clients" class="clients">
+        <div class="section-name">
+            <div class="line first-line"></div>
+            <h2 class="section-tittle">OUR CLIENTS</h2>
+            <div class="line second-line"></div>
+        </div>
+        <div class="wrap">
+            <div class="clients-section">
+                    <div class="clients-item"><img src="./images/logo-lightspeed.svg" alt=""></div>
+                    <div class="clients-item"><img src="./images/logo-trvl.svg" alt=""></div>
+                    <div class="clients-item"><img src="./images/logo-spider-strategies.svg" alt=""></div>
+                    <div class="clients-item"><img src="./images/logo-tripadvisor.svg" alt=""></div>
+                    <div class="clients-item"><img src="./images/logo-shutterfly.svg" alt=""></div>
+                    <div class="clients-item"><img src="./images/logo-decos.svg" alt=""></div>
+                    <div class="clients-item"><img src="./images/logo-tiqets.svg" alt=""></div>
+                    <div class="clients-item"><img src="./images/logo-hotelchamp.svg" alt=""></div>
+                    <div class="clients-item"><img src="./images/logo-flitsmeister.svg" alt=""></div>
+                    <div class="clients-item"><img src="./images/logo-sap.svg" alt=""></div>
+                    <div class="clients-item"><img src="./images/logo-redkix.svg" alt=""></div>
+                    <div class="clients-item"><img src="./images/logo-nos.svg" alt=""></div>
+                </div>
+        </div>
+    </div>
+
+    <!------TEAM SECTION------>
+    <div id="team" class="team">
+        <div class="section-name">
+            <div class="line first-line"></div>
+            <h2 class="section-tittle">OUR TEAM</h2>
+            <div class="line second-line"></div>
+        </div>
+        <div class="wrap">
+            <div class="team-section">
+                <div class="team-item">
+                    <div><img src="./images/Vadim.svg" alt="" class="team-img"></div>
+
+                    <div>
+                    <h3 class="name">Vadim</h3>
+                    <p class="rank">Managing Director</p>
+                    </div>
+                </div>
+
+                <div class="team-item">                    
+                    <div><img src="./images/Sergey.svg" alt="" class="team-img"></div>
+                    
+                    <div>
+                    <h3 class="name">Sergey</h3>
+                    <p class="rank">Technology Director</p>
+                    </div>
+                </div>
+
+                <div class="team-item">                    
+                    <div><img src="./images/Andrey.svg" alt="" class="team-img"></div>
+                    
+                    <div>
+                    <h3 class="name">Andrey</h3>
+                    <p class="rank">Front-end Developer</p>
+                    </div>
+                </div>
+
+                <div class="team-item">                    
+                    <div><img src="./images/Alex.svg" alt="" class="team-img"></div>
+                        
+                    <div>
+                    <h3 class="name">Alex</h3>
+                    <p class="rank">Front-end Developer</p>
+                    </div>
+                </div>
+
+                <div class="team-item">
+                    <div><img src="./images/agneshka_maksimik.svg" alt="" class="team-img"></div>
+                    
+                    <div>
+                    <h3 class="name">Agneshka</h3>
+                    <p class="rank">Mobile Developer</p>
+                    </div>
+                </div>
+
+                <div class="team-item">
+                    <div><img src="./images/dmitry_shindin 2.svg" alt="" class="team-img"></div>
+                    
+                    <div>
+                    <h3 class="name">Dmitry</h3>
+                    <p class="rank">Back-end Developer</p>
+                    </div>
+                </div>
+
+                <div class="team-item">
+                    <div><img src="./images/artyom_khomyakov.svg" alt="" class="team-img"></div>
+                    
+                    <div>
+                    <h3 class="name">Artyom</h3>
+                    <p class="rank">Back-end Developer</p>
+                    </div>
+                </div>
+
+                <div class="team-item">
+                    <div><img src="./images/Evgeny.svg" alt="" class="team-img"></div>
+                    
+                    <div>
+                    <h3 class="name">Evgeny</h3>
+                    <p class="rank">Product Designer</p>
+                    </div>
+                </div>
+
+                <div class="team-item">
+                    <div><img src="./images/tomash_svorobovich 2.svg" alt="" class="team-img"></div>
+                    
+                    <div>
+                    <h3 class="name">Tom</h3>
+                    <p class="rank">Product Designer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----FOOTER----->
+    <footer>
+        <div class="footer">
+            <div class="footer-wrap">
+                <img src="./images/mamon-logo.svg" alt="" class="footer-logo">
+
+                <ul class="footer-icons">
+                    <li class="footer-icon"><a class="footer-link" href="https://github.com/"></a><img src="./images/github.svg" alt=""></li>
+                    <li class="footer-icon"><a class="footer-link" href="https://www.google.ru/"></a><img src="./images/Be.svg" alt=""></li>
+                    <li class="footer-icon"><a class="footer-link" href="https://www.google.ru/"></a><img src="./images/LinkedIn.svg" alt=""></li>
+                    <li class="footer-icon"><a class="footer-link" href="https://www.google.ru/"></a><img src="./images/Smth.svg" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

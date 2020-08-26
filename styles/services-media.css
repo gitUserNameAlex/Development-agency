@@ -1,0 +1,127 @@
+@media (min-width: 0px) and (max-width: 320px) {
+    .section-tittle {
+        font-size: 14px;
+    }
+
+    .services-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services-item {
+        width: 320px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .s-content {
+        margin-left: 10px;
+    }
+    
+    .s-item__tittle {
+        font-size: 18px;
+    }
+    
+    .s-item__txt {
+        font-size: 14px;
+        width: 220px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+    .section-tittle {
+        font-size: 15px;
+    }
+
+    .services-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services-item {
+        width: 375px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .s-content {
+        margin-left: 12px;
+    }
+    
+    .s-item__tittle {
+        font-size: 20px;
+    }
+    
+    .s-item__txt {
+        font-size: 16px;
+        width: 250px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 480px) {
+    .section-tittle {
+        font-size: 15px;
+    }
+
+    .services-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services-item {
+        width: 400px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .s-content {
+        margin-left: 12px;
+    }
+    
+    .s-item__tittle {
+        font-size: 20px;
+    }
+    
+    .s-item__txt {
+        font-size: 16px;
+        width: 250px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .section-tittle {
+        font-size: 16px;
+    }
+
+    .services-section {
+        margin: 10px;
+    }
+
+    .s-content {
+        margin-left: 11px;
+    }
+
+    .s-item__txt {
+        font-size: 16px;
+        width: 300px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+    .section-tittle {
+        font-size: 17px;
+    }
+
+    .services-section {
+        margin: 50px;
+    }
+
+    .s-content {
+        margin-left: 12px;
+    }
+
+    .s-item__txt {
+        font-size: 17px;
+        width: 350px;
+    }
+}

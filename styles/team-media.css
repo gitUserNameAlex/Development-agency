@@ -1,0 +1,65 @@
+@media (min-width: 0px) and (max-width: 320px) {
+    .team-section {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .team-item {
+        justify-content: center;
+    }
+    
+    .name {
+        font-size: 18px;
+    }
+    
+    .rank {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+    .team-section {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .team-item {
+        justify-content: center;
+    }
+    
+    .name {
+        font-size: 20px;
+    }
+    
+    .rank {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .team-item {
+        margin: 10px;
+    }
+
+    .name {
+        font-size: 22px;
+    }
+
+    .rank {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+    .team-item {
+        margin: 12px;
+    }
+
+    .name {
+        font-size: 23px;
+    }
+
+    .rank {
+        font-size: 18px;
+    }
+}
